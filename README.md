@@ -1,5 +1,7 @@
 #Basedirs
 
+[![Build Status](https://travis-ci.org/Adaptavist/puppet-basedirs.svg?branch=master)](https://travis-ci.org/Adaptavist/puppet-basedirs)
+
 ####Table of Contents
 
 1. [Overview - What is the basedirs module?](#overview)

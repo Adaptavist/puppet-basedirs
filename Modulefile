@@ -1,5 +1,5 @@
 name 'adaptavist-basedirs'
-version '0.1.4'
+version '0.1.5'
 source 'https://github.com/Adaptavist/puppet-basedirs.git'
 author 'adaptavist'
 license 'apache2'
