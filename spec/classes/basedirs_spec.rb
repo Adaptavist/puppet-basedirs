@@ -32,19 +32,26 @@ describe 'basedirs', :type => 'class' do
         }
 
       }}
-    it do
-      should_not contain_file('/opt')
+      
+    it { should_not contain_file('/opt') }
+
+    it {
       should contain_file('/opt/test').with(
         'ensure'  => 'directory',
         'owner'  => 'root',
         'group'  => 'root',
-        'mode'   => 755,)
+        'mode'   => 755,
+      )
+    }
+
+    it {
       should contain_file('/tmp/hosting').with(
         'ensure'  => 'directory',
         'owner'  => 'hosting',
         'group'  => 'hosting',
-        'mode'   => 755,)
-    end
+        'mode'   => 755,
+      )
+    }
     
   end
 end
